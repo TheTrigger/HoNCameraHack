@@ -113,7 +113,7 @@ namespace HoNCameraHack
 				int k = default;
 				while (k != find_sequence.Length && find_sequence[k] == game_shared[i + k++]) ;
 
-				if (k == 4)
+				if (k == find_sequence.Length)
 				{
 					addresses.Add(i);
 				}
